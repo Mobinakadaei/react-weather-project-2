@@ -1,37 +1,5 @@
-.weather {
-  border: 1px solid;
-  font: arial, sans-serif;
-  padding: 16px;
-  width: 500px;
-  margin: 30px auto;
-  border-radius: 10px;
-  border-color: #878787;
-  color: #878787;
-
-}
-
-.weather form {
-  margin-bottom: ;
-}
-
-.weather h1 {
-  color: #878787;
-  display: block;
-  line-height: 40px;
-  font-size: 30px;
-  margin: 20px 0 0 0;
-}
-
-.weather li {
-  font-size: 12px;
-  list-style: none;
-}
-
-.weather ul {
-  margin: 0;
-  padding: 0;
-}
-
-.search-input {
-  width: 300px;
+.App footer {
+  text-align: center;
+  color: gray;
+  font-size: 9 px;
 }

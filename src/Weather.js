@@ -1,4 +1,5 @@
 import React from "react";
+import './Weather.css'
 
 export default function Weather() {
     return (<div className="weather">
@@ -10,8 +11,6 @@ export default function Weather() {
                 <div className="col-3">
                     <input type="submit" value="Search" className="btn btn-primary w-100" />
                 </div>
-
-
             </div>
         </form>
         <h1>Utrecht</h1>
@@ -24,8 +23,9 @@ export default function Weather() {
             </li>
         </ul>
         <div className="row">
-            <div className="col-6">
-                <img src="https://www.gstatic.com/weather/conditions/v1/svg/partly_cloudy_light.svg" alt="Partly sunny" /> 26°C
+            <div className="col-6 d-flex align-items-center">
+                <img src="https://www.gstatic.com/weather/conditions/v1/svg/partly_cloudy_light.svg" alt="Partly sunny" />
+                <span className="temperature">26</span><span className="unit">°C</span>
             </div>
             <div className="col-6">
                 <ul>
@@ -34,6 +34,8 @@ export default function Weather() {
                     <li>Wind: 14 km/h </li>
                 </ul>
             </div>
+
         </div>
-    </div>)
+    </div>
+    )
 }
